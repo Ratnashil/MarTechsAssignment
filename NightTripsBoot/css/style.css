@@ -131,8 +131,8 @@
     
     width: 65px;
     height: 65px;
-    margin: 20px 10px 40px 10px;
-    vertical-align: text-top;
+    margin: 20px 10px 30px 10px;
+    
 }
 .i-text{
     font-size: 20px;
@@ -149,7 +149,76 @@
 }
 .social-logo{
     text-align: right;
-     color: #39cfbf;
+    margin-top:15px ;
      
 }
+.footer-col h5{
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h5::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom:-10px;
+    background-color:#39cfbf ;
+    height: 2px;
+    box-sizing: border-box;
+    width: 60px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px ;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    color: #bbb;
+    display: block;
+    transition:all 0.3s ease;
 
+}
+.footer-col ul li a:hover{
+    color: #fff;
+    padding-left: 10px;
+}
+.footer-col .social-link a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color:#39cfbf;
+    transition: all 0.5s ease;
+}
+.footer-col .social-link a:hover{
+    color: #fff;
+}
+.social-logo ul li a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color:#39cfbf;
+    transition: all 0.5s ease;
+}
+.social-logo ul li a:hover{
+   
+    color:#FFF;
+}
+.chillNav{
+    font-size: 20px;
+    font-family:'Poppins', sans-serif ;
+    margin-bottom: 20px;
+}
