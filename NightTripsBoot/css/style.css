@@ -1,3 +1,19 @@
+/* input[type = text] {
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+	background: transparent ;
+	outline: none;
+	border-radius: 50px;
+	border: none;
+	box-shadow: none;
+	height: 40px;
+	width: 40px;
+	font-size: 20px;
+	
+}
+input[type = text]:focus {
+	width: 20%;
+} */
 .btn{
     border-radius: 10rem ;
     padding: 0.5rem 2.24rem ;
@@ -221,4 +237,8 @@
     font-size: 20px;
     font-family:'Poppins', sans-serif ;
     margin-bottom: 20px;
+}
+.eclipse{
+    text-align: right;
+    margin: 0px, 0px, 0px, 0px,;
 }
